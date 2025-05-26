@@ -1,0 +1,46 @@
+[
+  {
+    "pergunta": "Quais são as possíveis causas da esquizofrenia?",
+    "alternativas": [
+      "Apenas traumas psicológicos",
+      "Genética, fatores ambientais e desequilíbrios químicos no cérebro",
+      "Falta de vitaminas",
+      "Infecções virais simples"
+    ],
+    "correta": 1,
+    "explicacao": "A esquizofrenia pode ser causada por uma combinação de fatores genéticos, alterações químicas no cérebro e fatores ambientais como estresse intenso."
+  },
+  {
+    "pergunta": "Quais são sintomas comuns da esquizofrenia?",
+    "alternativas": [
+      "Febre e dor de cabeça",
+      "Alucinações, delírios, comportamento desorganizado",
+      "Dificuldade para dormir e irritação leve",
+      "Compulsão alimentar"
+    ],
+    "correta": 1,
+    "explicacao": "Os sintomas incluem alucinações (como ouvir vozes), delírios (acreditar em coisas sem fundamento) e dificuldades cognitivas."
+  },
+  {
+    "pergunta": "Existem formas de prevenir a esquizofrenia?",
+    "alternativas": [
+      "Sim, com vacina anual",
+      "Sim, evitando o uso de drogas e controlando o estresse",
+      "Não, é completamente imprevisível",
+      "Sim, com dieta rica em ferro"
+    ],
+    "correta": 1,
+    "explicacao": "Não há prevenção 100% eficaz, mas evitar drogas psicoativas e cuidar da saúde mental pode reduzir os riscos."
+  },
+  {
+    "pergunta": "Quais são os tratamentos disponíveis para a esquizofrenia?",
+    "alternativas": [
+      "Apenas cirurgia",
+      "Remédios naturais e meditação",
+      "Antipsicóticos, terapia psicológica e apoio familiar",
+      "Ficar em repouso absoluto"
+    ],
+    "correta": 2,
+    "explicacao": "O tratamento envolve medicamentos antipsicóticos, psicoterapia e suporte social para melhorar a qualidade de vida do paciente."
+  }
+]
