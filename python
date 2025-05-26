@@ -1,0 +1,31 @@
+import json
+
+def carregar_perguntas(caminho_arquivo):
+    with open(caminho_arquivo, 'r', encoding='utf-8') as f:
+        return json.load(f)
+
+def exibir_quiz(perguntas):
+    pontuacao = 0
+    for i, pergunta in enumerate(perguntas):
+        print(f"\nPergunta {i + 1}: {pergunta['pergunta']}")
+        for idx, alt in enumerate(pergunta['alternativas']):
+            print(f"  {idx + 1}. {alt}")
+        
+        resposta = input("Sua resposta (1-4): ")
+        while resposta not in ['1', '2', '3', '4']:
+            resposta = input("Por favor, escolha um número de 1 a 4: ")
+
+        if int(resposta) - 1 == pergunta['correta']:
+            print("✅ Resposta correta!")
+            pontuacao += 1
+        else:
+            print(f"❌ Resposta incorreta! A certa era: {pergunta['alternativas'][pergunta['correta']]}")
+        
+        print(f"📘 Explicação: {pergunta['explicacao']}")
+
+    print(f"\n🎉 Você acertou {pontuacao} de {len(perguntas)} perguntas!")
+
+if __name__ == "__main__":
+    perguntas = carregar_perguntas('perguntas_respostas.json')
+    print("🧠 Bem-vindo ao Quiz sobre Esquizofrenia!\n")
+    exibir_quiz(perguntas)
