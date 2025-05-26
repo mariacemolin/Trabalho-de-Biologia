@@ -1,6 +1,5 @@
-esquizofrenia-quiz/
+quiz-esquizofrenia/
 │
-├── README.md
-├── quiz.py
-└── perguntas_respostas.json
-
+├── index.html
+├── style.css
+└── script.js
