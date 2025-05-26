@@ -7,3 +7,13 @@ Ideal para estudantes, profissionais da saúde e qualquer pessoa que queira apre
 ## 🔧 Como rodar
 
 1. Clone o repositório:
+2. Execute o quiz:
+
+## 📝 Conteúdo abordado
+
+- Causas da esquizofrenia
+- Sintomas
+- Prevenção
+- Tratamentos disponíveis
+
+Feito com ❤️ por [Seu Nome].
